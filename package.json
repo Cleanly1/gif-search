@@ -5,6 +5,8 @@
   "private": true,
   "main": "index.js",
   "scripts": {
+    "start": "rollup --config --watch",
+    "build": "rollup --config --environment NODE_ENV:production",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,5 +18,10 @@
   "bugs": {
     "url": "https://github.com/Cleanly1/gif-search/issues"
   },
-  "homepage": "https://github.com/Cleanly1/gif-search#readme"
+  "homepage": "https://github.com/Cleanly1/gif-search#readme",
+  "dependencies": {
+    "rollup": "^1.29.0",
+    "rollup-plugin-browsersync": "^1.1.0",
+    "rollup-plugin-terser": "^5.2.0"
+  }
 }
