@@ -20,8 +20,15 @@
   },
   "homepage": "https://github.com/Cleanly1/gif-search#readme",
   "dependencies": {
+    "autoprefixer": "^9.7.4",
+    "node-sass": "^4.13.1",
+    "postcss-normalize": "^8.0.1",
     "rollup": "^1.29.0",
     "rollup-plugin-browsersync": "^1.1.0",
+    "rollup-plugin-postcss": "^2.0.3",
     "rollup-plugin-terser": "^5.2.0"
-  }
+  },
+  "browserslist": [
+    "last 2 versions"
+  ]
 }

@@ -1,0 +1,23 @@
+@import-normalize;
+
+@import 'project/project';
+@import 'components/components';
+
+body {
+  background-color: white;
+  @include placeCenter();
+  flex-flow: column nowrap;
+}
+
+.header {
+
+  &Img {
+    width: 80vw;
+  }
+}
+
+.giphy {
+  @include placeCenter();
+
+}
+
