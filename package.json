@@ -21,7 +21,7 @@
   "homepage": "https://github.com/Cleanly1/gif-search#readme",
   "dependencies": {
     "autoprefixer": "^9.7.4",
-    "node-sass": "^4.13.1",
+    "node-sass": "^7.0.0",
     "postcss-normalize": "^8.0.1",
     "rollup": "^1.29.0",
     "rollup-plugin-browsersync": "^1.1.0",
